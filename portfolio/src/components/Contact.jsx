@@ -5,9 +5,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative flex items-center justify-center min-h-screen bg-white"
+      className="relative flex items-center justify-center min-h-screen "
     >
-      <div className="max-w-6xl w-full px-6">
+      <div className="max-w-xl w-full px-6">
         <motion.div
           className=" items-center justify-center gap-8 h-full"
           initial={{ opacity: 0, scale: 0.8 }}
