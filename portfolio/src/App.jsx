@@ -20,7 +20,7 @@ function App() {
     <About/> 
     <Project/>
     <Contact/>  
-    <Footer/>
+    <Footer  className="rounded-t-3xl bg-white border-t" />
     </>
   )
 }

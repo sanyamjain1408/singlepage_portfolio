@@ -3,14 +3,14 @@ import logo from '/src/assets/logo.png';
 
 export default function Footer() {
   return (
-    <footer className="w-full fixed bottom-0 left-0 bg-white border-t">
-      <div className="mx-0 w-full p-2 py-4 lg:py-6">
+    <footer className="w-full bg-white border-t rounded-t-3xl overflow-hidden">
+      <div className="w-full p-2 py-4 lg:py-6">
         <div className="md:flex md:justify-between">
           <div className="mb-4 md:mb-0">
             <a href="/" className="flex items-center">
               <img
                 src={logo}
-                className="mr-3 h-12 sm:h-20 ml-5 mt-3 hidden sm:block"
+                className="mr-3 h-12 sm:h-20 mt-3 ml-5 hidden sm:block"
                 alt="Logo"
               />
             </a>
@@ -21,21 +21,9 @@ export default function Footer() {
                 Resources
               </h2>
               <ul className="text-gray-500 text-xs font-medium">
-                <li className="mb-2">
-                  <a href="/" className="hover:underline">
-                    Home
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/about" className="hover:underline">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="/project" className="hover:underline">
-                    Project
-                  </a>
-                </li>
+                <li className="mb-2"><a href="/" className="hover:underline">Home</a></li>
+                <li className="mb-2"><a href="/about" className="hover:underline">About</a></li>
+                <li><a href="/project" className="hover:underline">Project</a></li>
               </ul>
             </div>
             <div>
@@ -44,34 +32,13 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 text-xs font-medium">
                 <li className="mb-2">
-                  <a
-                    href="https://github.com/sanyamjain1408"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Github
-                  </a>
+                  <a href="https://github.com/sanyamjain1408" className="hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="https://www.linkedin.com/in/sanyamjain14/"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    LinkedIn
-                  </a>
+                  <a href="https://www.linkedin.com/in/sanyamjain14/" className="hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/sanyam.p.jain/"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Instagram
-                  </a>
+                  <a href="https://www.instagram.com/sanyam.p.jain/" className="hover:underline" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </li>
               </ul>
             </div>
