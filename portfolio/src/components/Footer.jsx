@@ -3,30 +3,30 @@ import logo from '/src/assets/logo.png';
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-y">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <footer className="w-full fixed bottom-0 left-0 bg-white border-t">
+      <div className="mx-0 w-full p-2 py-4 lg:py-6">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
+          <div className="mb-4 md:mb-0">
             <a href="/" className="flex items-center">
               <img
                 src={logo}
-                className="mr-3 h-16 sm:h-32 ml-5 mt-5"
+                className="mr-3 h-12 sm:h-20 ml-5 mt-3 hidden sm:block"
                 alt="Logo"
               />
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-4 sm:mr-32 sm:gap-32 sm:grid-cols-2">
+          <div className="grid grid-cols-2 gap-4 sm:gap-16 sm:grid-cols-2">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+              <h2 className="mb-4 text-xs font-semibold text-gray-900 uppercase">
                 Resources
               </h2>
-              <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
+              <ul className="text-gray-500 text-xs font-medium">
+                <li className="mb-2">
                   <a href="/" className="hover:underline">
                     Home
                   </a>
                 </li>
-                <li className="mb-4">
+                <li className="mb-2">
                   <a href="/about" className="hover:underline">
                     About
                   </a>
@@ -39,11 +39,11 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+              <h2 className="mb-4 text-xs font-semibold text-gray-900 uppercase">
                 Follow us
               </h2>
-              <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
+              <ul className="text-gray-500 text-xs font-medium">
+                <li className="mb-2">
                   <a
                     href="https://github.com/sanyamjain1408"
                     className="hover:underline"
@@ -53,7 +53,7 @@ export default function Footer() {
                     Github
                   </a>
                 </li>
-                <li className="mb-4">
+                <li className="mb-2">
                   <a
                     href="https://www.linkedin.com/in/sanyamjain14/"
                     className="hover:underline"
@@ -77,9 +77,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <hr className="my-4 border-gray-200 sm:mx-auto lg:my-6" />
         <div className="sm:flex sm:items-center sm:justify-center">
-          <span className="text-sm text-gray-500 sm:text-center">
+          <span className="text-xs text-gray-500 sm:text-center">
             © 2003 — All Rights Reserved.
           </span>
         </div>
