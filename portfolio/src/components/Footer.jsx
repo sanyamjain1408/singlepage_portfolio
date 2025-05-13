@@ -3,9 +3,9 @@ import logo from '/src/assets/logo.png';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white border-t rounded-t-3xl overflow-hidden">
-      <div className="w-full p-2 py-4 lg:py-6">
-        <div className="md:flex md:justify-between">
+    <footer className="w-full  bg-white border-t rounded-t-3xl overflow-hidden">
+      <div className="w-full  p-2 py-4 lg:py-6">
+        <div className=" md:flex  md:justify-between">
           <div className="mb-4 md:mb-0">
             <a href="/" className="flex items-center">
               <img
